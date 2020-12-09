@@ -29,7 +29,7 @@ public class MainActivity {
             System.out.println("服务端发送过来的信息" + info);
         }
         socket.shutdownInput();
-
+//test
         socket.close();
     }
 }
